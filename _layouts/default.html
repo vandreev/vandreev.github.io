@@ -1,0 +1,32 @@
+<!-- This is the main layout that will contain repeated elements like our <head> and <footer> -->
+<!-- Take note of {{content}} and {{page.title}} tags. They're Jekyll liquid tags and are used to inject content into the final web page. -->
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{page.title}}</title>
+
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/">About</a></li>
+			<li><a href="/">CV</a></li>
+			<li><a href="/">Blog</a></li>
+		</ul>
+	</nav>
+	<div class="container">
+		{{content}}
+	</div><!-- /.container -->
+
+	<footer>
+		<ul>
+			<li><a href="mailto:vivian.andreeva@live.ca">E-mail Me</a></li>
+			<li><a href="https://github.com/vandreev">github.com/vandreev</a></li>
+		</ul>
+	</footer>
+</body>
+</html>
