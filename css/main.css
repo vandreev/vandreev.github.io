@@ -48,3 +48,8 @@ ul.posts {
 ul.posts li {
 	list-style: none;
 }
+
+img[alt="recipepic"] {
+	max-width: 300px;
+	display: block;
+}

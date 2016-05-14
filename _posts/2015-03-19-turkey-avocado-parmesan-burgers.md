@@ -8,4 +8,4 @@ You only need 3 ingredients for these juicy, healthy and tasty burgers.
 
 I really enjoy using my mini George Foreman grill when making burgers. It's designed to let the fat drip off the grill for a healthy bonus. Never fear, the burgers are still juicy once cooked because of the mixed in Parmesan!
 
-![turkeyavocadoburgers]({{site.url}}/assets/turkeyavocadoburgers.jpg =300x)
+![recipepic]({{site.url}}/assets/turkeyavocadoburgers.jpg)
